@@ -1,13 +1,19 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <title>To-Do</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Tarefas</title>
+  <link rel="stylesheet" href="assets/css/index.css">
 </head>
 <body>
-    ola
+  <div class="todo-container">
+    <h1>Lista de Tarefas</h1>
+    <input type="text" id="tarefaInput" placeholder="Digite uma tarefa">
+    <button onclick="adicionarTarefa()">Adicionar Tarefa</button>
+    <ul id="listaDeTarefas"></ul>
+  </div>
+
+  <script src="assets/js/index.js"></script>
 </body>
-<script src="assets/js/index.js"></script>
 </html>
